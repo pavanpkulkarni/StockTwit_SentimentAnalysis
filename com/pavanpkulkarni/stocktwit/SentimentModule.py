@@ -32,27 +32,27 @@ class VoteClassifier(ClassifierI):
         conf = choice_votes / len(votes)
         return conf
 
-word_features_f = open("/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/all_pickles/word_features.pickle", "rb")
+word_features_f = open("/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/all_pickles/word_features.pickle", "rb")
 word_features = pickle.load(word_features_f)
 word_features_f.close()
 
-open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/all_pickles/NaiveBayes_classifier.pickle", "rb")
+open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/all_pickles/NaiveBayes_classifier.pickle", "rb")
 NaiveBayes_classifier = pickle.load(open_file)
 open_file.close()
 
-open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/all_pickles/MNB_classifier.pickle", "rb")
+open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/all_pickles/MNB_classifier.pickle", "rb")
 MNB_classifier = pickle.load(open_file)
 open_file.close()
 
-open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/all_pickles/BernoulliNB_classifier.pickle", "rb")
+open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/all_pickles/BernoulliNB_classifier.pickle", "rb")
 BernoulliNB_classifier = pickle.load(open_file)
 open_file.close()
 
-open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/all_pickles/LogisticRegression_classifier.pickle", "rb")
+open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/all_pickles/LogisticRegression_classifier.pickle", "rb")
 LogisticRegression_classifier = pickle.load(open_file)
 open_file.close()
 
-open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/all_pickles/LinearSVC_classifier.pickle", "rb")
+open_file = open("/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/all_pickles/LinearSVC_classifier.pickle", "rb")
 LinearSVC_classifier = pickle.load(open_file)
 open_file.close()
 

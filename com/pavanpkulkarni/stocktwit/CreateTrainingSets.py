@@ -13,9 +13,9 @@ import nltk
 import random
 
 
-TEST_DATA_FILENAME = "/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/data_set/test_data.json" 
-BEARISH_TRAIN_DATA_FILENAME = "/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/data_set/bearish_train_data_.json" 
-BULLISH_TRAIN_DATA_FILENAME = "/Users/pavan/Documents/workspace_hu/StockTwit_Analysis/data_set/bullish_train_data_.json"
+TEST_DATA_FILENAME = "/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/data_set/test_data.json" 
+BEARISH_TRAIN_DATA_FILENAME = "/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/data_set/bearish_train_data_.json" 
+BULLISH_TRAIN_DATA_FILENAME = "/Users/pavan/Documents/workspace_hu/StockTwit_SentimentAnalysis/data_set/bullish_train_data_.json"
 
 names = ["AAPL", "MMM", "AXP", "T", "BA", "CAT", "CVX", "CSCO", "KO", "DIS", "DD", "XOM", "GE", "GS", "HD", "IBM", "INTL", "JNJ", "JPM", "MCD", "MRK", "MSFT", "NKE", "PFE", "PG", "TRV", "UTX", "UNH", "VZ", "V", "WMT", "NVS", "TM", "PTR", "WFC", "BABA",  "TWTR", "FB", "GOOG", "AAPL", "YHOO", "BP", "PEP","CTSH"]
 
