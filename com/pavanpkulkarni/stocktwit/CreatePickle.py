@@ -77,7 +77,7 @@ for i in names:
                 all_words.append(w[0].lower()) 
 
 
-print "Document lenght is : ", len(all_tweets)
+print "all_tweets : ", len(all_tweets)
 print "all_words length is : ", len(all_words)
 
 print "Started pickling all_tweets"
