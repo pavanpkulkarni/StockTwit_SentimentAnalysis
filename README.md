@@ -38,4 +38,14 @@ This module does the following:
 This module is the actual running module. We load the pickle and provide the best possible results based on Voting system. 
 
 ### StreamStockTwitsAPI
-Pass [test.json](https://github.com/pavanpkulkarni/StockTwit_SentimentAnalysis/blob/master/data_set/test_data.json) to get sentiment for each tweet. 
+Pass [test.json](https://github.com/pavanpkulkarni/StockTwit_SentimentAnalysis/blob/master/data_set/test_data.json) to get sentiment for each tweet.  
+
+## Architecture Diagram  
+
+**Overview** :  
+
+![](images/StockTwits_Overview.png)  
+
+**Detailed Architecture** :  
+
+![](images/StockTwits_Detailed_Architecture.png)  
