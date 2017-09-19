@@ -40,12 +40,19 @@ This module is the actual running module. We load the pickle and provide the bes
 ### StreamStockTwitsAPI
 Pass [test.json](https://github.com/pavanpkulkarni/StockTwit_SentimentAnalysis/blob/master/data_set/test_data.json) to get sentiment for each tweet.  
 
-## Architecture Diagram  
+## Architecture Diagram :  
+
 
 **Overview** :  
 
-![](images/StockTwits_Overview.png)  
+
+<img src="images/StockTwits_Overview.png" width="650" height="300">  
+
+
 
 **Detailed Architecture** :  
 
-![](images/StockTwits_Detailed_Architecture.png)  
+
+<img src="images/StockTwits_Detailed_Architecture.png" width="650" height="500">  
+
+
